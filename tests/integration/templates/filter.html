@@ -1,0 +1,12 @@
+<html>
+	{% if foo|isString %}
+	  IS_STRING		
+	{% else %}
+		NOTOK
+	{% endif %}
+	{% if bar|isString %}
+		NOTOK	
+	{% else %}
+		IS_ARRAY
+	{% endif %}
+</html>

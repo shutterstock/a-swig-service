@@ -1,0 +1,20 @@
+<div class="body-footer-inner">
+{% if global.photo_stats.total %}
+{% set spanQty = ["<span class='qty'>"," </span>"] %}
+{% set statsTotal = spanQty|join(global.photo_stats.total) %}
+{% set statsThisWeek = spanQty|join(global.photo_stats.new_this_week) %}
+
+<div class="stats">
+  <h3 class="h5 light">{% i18n _ITEXT_SHUTTERSTOCK_STATS_ %}SHUTTERSTOCK STATS:{% endi18n %}</h3>
+  {% i18n EXACTLY_PHOTOS __NUM__: statsTotal %}__NUM__ royalty-free stock images{% endi18n %}
+  <span class="divider">/</span>
+  {% i18n NEW_PHOTOS __NUM__: statsThisWeek %}__NUM__ new stock images added this week{% endi18n %}
+</div>
+{% endif %}
+</div>
+
+<div id="legal-links" class="span3">
+	<ul class="unstyled secondary legal">
+		<li><a href="/website_terms.mhtml" rel="nofollow">{% i18n FOOTER_LINK_WEBSITE_TERMS %}Website Terms of Use{% endi18n %}</a></li>
+	</ul>
+</div>

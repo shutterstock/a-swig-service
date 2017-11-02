@@ -1,6 +1,6 @@
 {
   "name": "a-swig-service",
-  "description": "we love templates",
+  "description": "A service that well, serves html from swig templates",
   "version": "0.0.2",
   "private": true,
   "license": "MIT",
@@ -34,6 +34,7 @@
     "url": "https://github.com/shutterstock/a-swig-service.git"
   },
   "contributors": [
-    null
+    "Richard Littauer <richard.littauer@gmail.com> (https://burntfen.com)",
+    "Logan Bell <loganbell@gmail.com> (http://www.loganbell.org)"
   ]
 }

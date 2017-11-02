@@ -1,6 +1,6 @@
 {
   "name": "a-swig-service",
-  "description": "we love templates",
+  "description": "A service that well, serves html from swig templates",
   "version": "0.0.2",
   "private": true,
   "license": "MIT",
@@ -21,5 +21,20 @@
     "mocha": "1.16.1",
     "nodeunit": "0.8.1",
     "proxyquire": "0.5.2"
-  }
+  },
+  "keywords": [
+    "rock",
+    "service",
+    "swig"
+  ],
+  "homepage": "https://github.com/shutterstock/a-swig-service",
+  "bugs": "https://github.com/shutterstock/a-swig-service/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shutterstock/a-swig-service.git"
+  },
+  "contributors": [
+    "Richard Littauer <richard.littauer@gmail.com> (https://burntfen.com)",
+    "Logan Bell <loganbell@gmail.com> (http://www.loganbell.org)"
+  ]
 }

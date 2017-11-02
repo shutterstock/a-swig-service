@@ -1,6 +1,6 @@
 # a-swig-service
 
-> A service that well, serves html from swig templates
+> A service that well, serves html from [swig](https://github.com/swig/swig) templates
 
 ## Install
 

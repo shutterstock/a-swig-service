@@ -1,9 +1,8 @@
-a-swig-service
-=========
+# a-swig-service
 
-=========
+> A service that well, serves html from swig templates
 
-### Getting Started
+## Install
 
 1. First install [rock](http://www.rockstack.org/)
 
@@ -13,7 +12,7 @@ a-swig-service
     rock build
   ```
 
-3. Run it
+## Usage
 
   ```
   rock run_web \
@@ -22,7 +21,7 @@ a-swig-service
     --workers=2
   ```
 
-##### Perl/Dancer
+### Perl/Dancer
 
 There is a Perl client and a [Dancer wrapper](https://github.com/logie17/Dancer-Plugin-Swig) for the [client](https://github.com/shutterstock/perl-webservice-swigclient). 
 
@@ -62,17 +61,23 @@ There is a Perl client and a [Dancer wrapper](https://github.com/logie17/Dancer-
   true;
 ```
 
-#### Ruby/Sinatra
+### Ruby/Sinatra
 
 There is a [Ruby client](https://github.com/shutterstock/ruby-webservice-swigclient) and [Sinatra wrapper.](https://github.com/logie17/sinatra-swig)
 
-#### Python
+### Python
 
-Yet to be developed
+TODO Yet to be developed
 
-#### PHP
+### PHP
 
-Yet to be developed
+TODO Yet to be developed
+
+## Contribute
+
+Please contribute! If you have questions, find a bug, or want a feature, feel free to [open an issue](https://github.com/shutterstock/a-swig-service/issues/new)!
+
+Please note that all interactions on Shutterstock conform to the Shutterstock [Code of Conduct](TODO).
 
 ## License
 
